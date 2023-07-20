@@ -5,9 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Netrunner France</a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tous nos articles</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <main>
+
+
+      <div class="hero-image">
+
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="text-white">Netrunner France</h1>
+              <p class="lead text-white">Catchphrase</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <div class="container">
+          <h2 class="mt-5 mb-5">Qu'est-ce que Netrunner ?</h2>
+          <div class="row mt-5 mb-5">
+            <div class="col-7 pt-5">
+              <p>
+                Netrunner est un jeu de cartes qui se joue à 2. On est dans un univers cyberpunk : une personne joue une méga-corporation corrompue qui va essayer de mettre en place des projets et l'autre personne joue un pirate informatique essayant d'infiltrer les serveurs de la méga-corporation.
+              </p>
+              <p>
+                Le jeu est asymétrique : les 2 personnes ont chacune un deck complètement différent, mais vont partager le même objectif : 7 points de projet. La personne qui joue corporation va marquer les points en mettant en place ses projets, celle qui joue pirate va marquer des points en volant ces projets.
+              </p>
+              <p>
+                C'est un jeu de deckbuilding, mais avec un twist : quand une nouvelle extension sort, il est possible d'acheter toutes les cartes en 3 exemplaires. Pas de système d'achat-revente de cartes, on peut créer tous les decks que l'on veut au même prix.
+              </p>
+            </div>
+            <div class="col-5">
+              <img src="https://nullsignal.games/wp-content/uploads/2021/03/Runner-vs-Corp.png" class="img-fluid" alt="...">
+            </div>
+          </div>
+          <div class="row pt-5 pb-5">
+            <div class="col-3"></div>
+            <div class="col-2">
+              <img src="https://felhix.files.wordpress.com/2023/07/image-1.png?w=500" class="img-fluid" alt="...">
+            </div>
+            <div class="col-2">
+              <img src="https://felhix.files.wordpress.com/2023/07/logo-golden-geek-awards-fotor-bg-remover-20230716202025.png?w=500" class="img-fluid" alt="...">
+            </div>
+            <div class="col-2">
+              <img src="https://felhix.files.wordpress.com/2023/07/screenshot_20230716_202943.png?w=187" class="img-fluid" alt="...">
+            </div>
+            <div class="col-3"></div>
+          </div>
+
+          <div class="row pt-5 pb-5">
+            <div class="col-5">
+              <img src="https://felhix.files.wordpress.com/2023/07/blog-image-watermarked-info-bounty.png?w=1024" class="img-fluid" alt="...">
+            </div>
+            <div class="col-7 my-auto">
+              <p>
+                Le jeu a eu quelques aventures d'édition, mais Null Signal Games, un collectif de pirates bénévoles, a repris ses rennes. NGS sort plusieurs nouvelles extensions par an et co-organise avec la communauté mondiale la scène compétitive.
+              </p>
+              <a class="btn btn-primary" href="https://nullsignal.games/" role="button" target="_blank">Aller sur le site de NSG</a>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="bg-body-tertiary">
+        <div class="container mt-5 mb-5 pt-5 pb-5">
+          <h2>Rejoindre la communauté</h2>
+          <p>La communauté Netrunner française est sympathique et bienveillante. Discord est actuellement notre canal de communication privilégié, mais vous pourrez la retrouver sur les canaux suivants :</p>
+          <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img src="https://felhix.files.wordpress.com/2023/07/screenshot_20230717_101304.png?w=771" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Discord</h5>
+                  <p class="card-text">La communauté est très active sur Discord qui reste notre médium de communication principal</p>
+                  <a href="https://discord.gg/pM94Stf" class="btn btn-primary" target="_blank">Rejoindre le serveur Discord</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img src="https://felhix.files.wordpress.com/2023/07/screenshot_20230717_101159.png?w=650" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Forum</h5>
+                  <p class="card-text">La communauté n'est plus très active sur le forum, au profit de Discord.</p>
+                  <a href="https://district99.forumactif.com/" class="btn btn-primary" target="_blank">Rejoindre le forum</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card">
+                <img src="https://felhix.files.wordpress.com/2023/07/screenshot_20230717_101531.png?w=417" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Groupe Facebook</h5>
+                  <p class="card-text">La communauté n'est plus très active sur Facebook (mais en vrai, qui utilise encore les groupes fb ?)</p>
+                  <a href="https://www.facebook.com/groups/AndroidNetrunnerFrance/?locale=fr_FR" class="btn btn-primary" target="_blank">Rejoindre le groupe Facebook</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">&copy; Netrunner France</p>
+
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Accueil</a></li>
+          </ul>
+        </footer>
+      </div>
+
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
   </body>
+
 </html>
