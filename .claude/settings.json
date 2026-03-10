@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**/*.html)",
+      "Read(**/*.css)",
+      "Read(**/*.md)",
+      "Edit(**/*.html)",
+      "Edit(**/*.css)"
+    ],
+    "deny": [
+      "Edit(CNAME)"
+    ]
+  }
+}
