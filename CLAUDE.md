@@ -31,7 +31,7 @@ Push to the `main` branch deploys automatically to GitHub Pages. The CNAME file 
 
 - Keep it extremely simple : it is sometimes easier to go by hand rather than importing complicated libraries
 - Conventions conventions conventions : the standards are king
-- It is important to fit the use cases into bootstrap library and we'd rather use premade Bootstrap behaviour rather than some components.js homemade unmaintainable code. That's why conventions are important
+- It is important to fit the use cases into bootstrap library and we'd rather use premade Bootstrap behaviour rather than some `components.js` homemade unmaintainable code. That's why conventions are important
 - You can be proactive in the recommandations : you know more the standards and you can give me what are the standards for some tasks. Plus, standard conventions lead to using Bootstrap premade features
 
 ## Common Tasks
